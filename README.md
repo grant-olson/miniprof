@@ -1,10 +1,10 @@
 MiniProf
 ========
 
-A quick-and-dirty lightweight profiler that allows you to measure
-the various steps in walltime.  The main benefit of this is that it
-is much easier to control and interpret the output compared raw
-profiling data which can often overwhelm you.
+A quick-and-dirty lightweight profiler that allows you to measure the
+various steps in walltime.  It is much easier to control and interpret
+the output from miniprof compared to raw profiling data, which can
+often overwhelm you.
 
 Calling MiniProf.profile returns a block containing a MiniProf
 instance.  This instance will record the time for each step when you
